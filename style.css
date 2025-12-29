@@ -16,7 +16,7 @@
   background-color: #f7941d; /* same orange color */
   color: #000;
   font-weight: 400;
-  padding: 3px 1px;
+  padding: 3px 10px;
   border-radius: 6px;
   font-size: 14px;
 }
@@ -431,6 +431,7 @@ body {
 
 /* LinkedIn Button */
 .mentor-card .btn-primary {
+  width: 84px;
   background-color: #0a66c2;
   border-color: #0a66c2;
   font-size: 0.8rem;
@@ -490,7 +491,35 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 12px rgba(244, 180, 0, 0.8);
 }
-
+footer {
+      
+      color: #fff;
+      padding: 40px 20px;
+      margin-top: -181px;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer h5 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .social-icons a {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #fff;
+    }
+    .footer .row {
+      align-items: stretch; /* sab column equal height */
+    }
+    .footer-logo img {
+      max-width: 120px;
+      height: auto;
+    }
 @supports (display: grid) {
   @media (min-width: 768px) {
     .timeline::before {
